@@ -1,16 +1,15 @@
 @font-face {
-    font-family: Helvetica, sans-serif;
-    src: url();
+    font-family: inter;
+    src: url(../fonts/Inter-Light.woff2);
 }
 
 body {
     margin: 0;
     padding: 0;
-    font-family: Helvetica, sans-serif;
+    font-family: inter;
 }
 
-/* Style for the left side */
-body::before {
+body.special-page:before {
     content: "";
     position: fixed;
     top: 0;
@@ -21,8 +20,7 @@ body::before {
     z-index: -1;
 }
 
-/* Style for the right side */
-body::after {
+body.special-page:after {
     content: "";
     position: fixed;
     top: 0;
@@ -43,13 +41,14 @@ body::after {
     color: rgb(0, 0, 0);
     display: inline;
     float: right;
-    margin-right: 56px;
+    margin-right: 24px;
+    font-size: large;
 }
 
 .navbar {
     float: right;
     position: absolute;
-    top: 34px;
+    top: 24px;
     right: 0px;
 }
 
@@ -120,8 +119,16 @@ body::after {
     font-size: large;
     margin-left: 24px;
     margin-top: 24px;
+    margin-bottom: -16px;
+}
+
+.logo1 {
+    font-size: large;
+    margin-left: 24px;
+    margin-top: 24px;
     margin-bottom: 96px;
 }
+
 
 .horizontal-line {
     height: 1px;
@@ -138,6 +145,11 @@ body::after {
     display: flex;
 }
 
+.header-wrapper1 {
+    display: flex;
+    margin-top: 248px;
+}
+
 h2,
 h3 {
     margin: 0;
@@ -150,13 +162,57 @@ h2 {
     margin-left: 24px;
 }
 
-h3 {
-    margin-left: 400px;
+
+.space1 {
+    margin-left: 299px;
+    margin-top: 8px;
 }
 
-.enfarve {
-    background-color: #ffffff;
-    z-index: 2;
+.space2 {
+    margin-left: 285px;
+    margin-top: 8px;
+}
+
+.space3 {
+    margin-left: 219px;
+    margin-top: 8px;
+}
+
+.space4 {
+    margin-left: 244px;
+    margin-top: 8px;
+}
+
+.top1 {
+    margin-top: 8px;
+}
+
+.top2 {
+    margin-top: 8px;
+}
+
+.top3 {
+    margin-top: 8px;
+}
+
+.top4 {
+    margin-top: 8px;
+}
+
+.b1 {
+    margin-left: 758px;
+}
+
+.b2 {
+    margin-left: 784px;
+}
+
+.b3 {
+    margin-left: 764px;
+}
+
+.b4 {
+    margin-left: 764px;
 }
 
 button {
@@ -176,4 +232,12 @@ button {
 button:hover {
     background-color: rgb(245, 143, 167);
     /* Change color on hover */
+}
+
+.overskrift1 {
+    font-size: 2.5em;
+}
+
+.fremhævet {
+    text-decoration: underline;
 }
