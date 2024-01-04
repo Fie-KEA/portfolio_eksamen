@@ -7,28 +7,64 @@ body {
     margin: 0;
     padding: 0;
     font-family: inter;
+    overflow-x: hidden;
 }
 
-body.special-page:before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 100%;
-    background-color: #ffffff;
-    z-index: -1;
+
+header h1 {
+    width: 100%;
+
 }
 
-body.special-page:after {
-    content: "";
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 50%;
-    height: 100%;
-    background-color: rgba(248, 244, 237, 1);
-    z-index: -1;
+header h2 {
+    margin-left: 24px;
+    font-size: 2em;
+    font-family: inter;
+    margin-bottom: 36px;
+}
+
+
+
+/* Two columns layout */
+.columns {
+    display: flex;
+}
+
+/*
+.column {
+    flex: 1;
+    text-align: left;
+    margin-left: 24px;
+    margin-right: 24px;
+
+}*/
+
+.column1 {
+    flex: 1;
+    text-align: left;
+    margin-left: 24px;
+    margin-right: 0px;
+
+}
+
+.column2 {
+    flex: 1;
+    text-align: left;
+    margin-left: px;
+    margin-right: 12px;
+
+}
+
+.column1 img {
+    max-width: 98%;
+    height: auto;
+    display: block;
+}
+
+.column2 img {
+    max-width: 98%;
+    height: auto;
+    display: block;
 }
 
 .navbar li {
@@ -75,45 +111,15 @@ body.special-page:after {
     height: 100%;
 }
 
-.column {
-    flex: 1;
+.container2 {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 192px;
 }
 
-.billede1 {
-    width: 350px;
-    height: auto;
-}
-
-.billede2 {
-    width: 400px;
-    height: auto;
-}
-
-.tilted-square {
-    width: 30px;
-    /* Adjust the size of the square */
-    height: 30px;
-    /* Adjust the size of the square */
-    border: 1px solid rgb(0, 0, 0);
-    opacity: 50%;
-    /* Outline color and thickness */
-    border-radius: 0px;
-    /* Optional: Rounded corners */
-    transform: rotate(45deg);
-    /* Rotate the square by 45 degrees */
-    box-sizing: border-box;
-    /* Ensure the border is included in the size */
-    background-color: transparent;
-    /* No fill for the square */
-    /* Centering styles */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(45deg);
-    /* Translate to center */
-}
 
 .logo {
     font-size: large;
@@ -217,9 +223,9 @@ h2 {
 
 button {
     padding: 12px 18px 12px 18px;
-    background-color: rgba(255, 176, 194, 1);
+    background-color: rgb(209, 203, 194);
     /* Background color */
-    color: #fff;
+    color: #000000;
     /* Text color */
     border: none;
     /* Remove default button border */
@@ -230,7 +236,7 @@ button {
 }
 
 button:hover {
-    background-color: rgb(245, 143, 167);
+    background-color: rgb(173, 166, 156);
     /* Change color on hover */
 }
 
@@ -240,4 +246,16 @@ button:hover {
 
 .fremhævet {
     text-decoration: underline;
+}
+
+.center {
+    text-align: center;
+    margin-top: 108px;
+}
+
+footer {
+    margin-left: 24px;
+    margin-top: 108px;
+    margin-bottom: 24px;
+    font-size: 0.8em;
 }
