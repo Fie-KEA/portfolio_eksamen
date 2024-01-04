@@ -18,34 +18,65 @@ header h1 {
 
 header h2 {
     margin-left: 24px;
-    font-size: 2em;
+    font-size: 1.6em;
     font-family: inter;
     margin-bottom: 36px;
 }
 
-
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
 /* Two columns layout */
 .columns {
     display: flex;
+    flex-wrap: wrap;
 }
 
-/*
+/* Style each column */
 .column {
-    flex: 1;
-    text-align: left;
-    margin-left: 24px;
-    margin-right: 24px;
+    flex: 1 0 50%;
+    /* Two columns */
+    box-sizing: border-box;
+    padding: 0px;
+    margin-left: 0px;
+    color: rgb(136, 136, 136);
+}
 
-}*/
+.column:hover {
+    color: black;
+
+}
+
+.column img {
+    max-width: 98%;
+    height: auto;
+}
 
 .column1 {
     flex: 1;
     text-align: left;
     margin-left: 24px;
     margin-right: 0px;
-
 }
+
+.column1 {
+    color: rgb(136, 136, 136);
+}
+
+.column1 :hover {
+    color: rgb(0, 0, 0);
+}
+
+.column2 {
+    color: rgb(136, 136, 136);
+}
+
+.column2 :hover {
+    color: rgb(0, 0, 0);
+}
+
 
 .column2 {
     flex: 1;
@@ -67,6 +98,7 @@ header h2 {
     display: block;
 }
 
+/*navbar styling*/
 .navbar li {
     margin-right: 0%;
     display: inline;
@@ -135,18 +167,6 @@ header h2 {
     margin-bottom: 96px;
 }
 
-
-.horizontal-line {
-    height: 1px;
-    /* Adjust the thickness of the line */
-    background-color: #000;
-    /* Color of the line */
-    margin: 0 24px;
-    /* Margin on both sides */
-    margin-top: 24px;
-    margin-bottom: 24px;
-}
-
 .header-wrapper {
     display: flex;
 }
@@ -159,86 +179,12 @@ header h2 {
 h2,
 h3 {
     margin: 0;
-
-    /* Remove default margins for the headers */
-    /* Additional styles for the headers if needed */
 }
 
 h2 {
     margin-left: 24px;
 }
 
-
-.space1 {
-    margin-left: 299px;
-    margin-top: 8px;
-}
-
-.space2 {
-    margin-left: 285px;
-    margin-top: 8px;
-}
-
-.space3 {
-    margin-left: 219px;
-    margin-top: 8px;
-}
-
-.space4 {
-    margin-left: 244px;
-    margin-top: 8px;
-}
-
-.top1 {
-    margin-top: 8px;
-}
-
-.top2 {
-    margin-top: 8px;
-}
-
-.top3 {
-    margin-top: 8px;
-}
-
-.top4 {
-    margin-top: 8px;
-}
-
-.b1 {
-    margin-left: 758px;
-}
-
-.b2 {
-    margin-left: 784px;
-}
-
-.b3 {
-    margin-left: 764px;
-}
-
-.b4 {
-    margin-left: 764px;
-}
-
-button {
-    padding: 12px 18px 12px 18px;
-    background-color: rgb(209, 203, 194);
-    /* Background color */
-    color: #000000;
-    /* Text color */
-    border: none;
-    /* Remove default button border */
-    border-radius: 0px;
-    /* Rounded corners */
-    cursor: pointer;
-    /* Show pointer cursor on hover */
-}
-
-button:hover {
-    background-color: rgb(173, 166, 156);
-    /* Change color on hover */
-}
 
 .overskrift1 {
     font-size: 2.5em;
@@ -251,6 +197,11 @@ button:hover {
 .center {
     text-align: center;
     margin-top: 108px;
+    color: rgb(0, 0, 0)
+}
+
+.center:hover {
+    color: rgb(92, 92, 92);
 }
 
 footer {
@@ -258,4 +209,14 @@ footer {
     margin-top: 108px;
     margin-bottom: 24px;
     font-size: 0.8em;
+}
+
+.venstre {
+    margin-left: 24px;
+    margin-bottom: 36px;
+}
+
+.venstre2 {
+    margin-left: 24px;
+    margin-right: 12px;
 }
