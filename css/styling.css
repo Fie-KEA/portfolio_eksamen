@@ -40,6 +40,7 @@ a {
     box-sizing: border-box;
     margin-left: 0px;
     color: rgb(136, 136, 136);
+    margin-bottom: 48px;
 }
 
 .column:hover {
@@ -349,4 +350,121 @@ h4 {
 
 .portræt {
     margin-left: 128px;
+}
+
+/* Full-width image */
+.full-width-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+
+}
+
+/* Two-column grid */
+.two-column-grid {
+    display: flex;
+}
+
+/* Style left and right columns */
+.left-column {
+    flex: 1;
+    /* Left column takes up available space */
+}
+
+.right-column {
+    flex: 1;
+    /* Right column takes up available space */
+}
+
+.speciel-side h1 {
+    font-size: 5em;
+}
+
+.speciel-side h2 {
+    font-size: 1em;
+    margin-bottom: 48px;
+    line-height: 28px;
+    margin-top: -24px;
+}
+
+.speciel-side h1,
+h2,
+h3,
+h4,
+p {
+    color: black;
+}
+
+.speciel-side:hover,
+h1,
+h2,
+h3,
+h4,
+p {
+    color: rgb(0, 0, 0);
+}
+
+.grey {
+    color: rgb(145, 150, 161);
+    margin-top: 6px;
+    margin-bottom: 100px;
+}
+
+.stor_tekst {
+    font-size: 1.2em;
+}
+
+.stor_overskrift {
+    font-size: 1.8em;
+    margin-top: 240px;
+    margin-bottom: 24px;
+}
+
+.stor_overskrift2 {
+    font-size: 1.8em;
+    margin-top: 148px;
+    margin-bottom: 24px;
+}
+
+.mellemrum_under {
+    margin-bottom: -12px;
+}
+
+.mellemrum_under2 {
+    margin-bottom: 36px;
+}
+
+.sort_tekst {
+    font-size: 1.2em;
+}
+
+.link_tekst {
+    font-size: 1em;
+    color: rgb(145, 150, 161);
+    text-decoration: underline;
+    margin-top: -16px;
+    margin-bottom: 64px;
+}
+
+.space {
+    margin-top: 150px;
+    margin-bottom: 250px;
+}
+
+.lillebillede {
+    margin-top: 13px;
+    margin-left: 24x;
+}
+
+.lillebillede2 {
+    margin-top: 13px;
+    margin-left: 24x;
+}
+
+.stortbillede {
+    margin-right: 12px;
+}
+
+.lidt_mellemrum {
+    margin-top: 50px;
 }
