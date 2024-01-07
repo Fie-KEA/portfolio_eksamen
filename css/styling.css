@@ -420,6 +420,12 @@ p {
     margin-bottom: 24px;
 }
 
+.stor_overskrift_speciel {
+    font-size: 1.8em;
+    margin-top: 72px;
+    margin-bottom: 24px;
+}
+
 .stor_overskrift2 {
     font-size: 1.8em;
     margin-top: 148px;
@@ -467,4 +473,16 @@ p {
 
 .lidt_mellemrum {
     margin-top: 50px;
+}
+
+.lillebillede_speciel {
+    margin-top: 13px;
+    margin-left: 24x;
+    margin-bottom: -50px;
+}
+
+.lillebillede2_speciel {
+    margin-top: 13px;
+    margin-left: 24x;
+    margin-bottom: -50px;
 }
