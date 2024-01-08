@@ -80,7 +80,6 @@ a {
 .column2 {
     flex: 1;
     text-align: left;
-    margin-left: px;
     margin-right: 12px;
 
 }
@@ -351,7 +350,7 @@ h4 {
     margin-left: 128px;
 }
 
-/* Full-width image */
+
 .full-width-image img {
     width: 100%;
     height: auto;
@@ -359,20 +358,20 @@ h4 {
 
 }
 
-/* Two-column grid */
+
 .two-column-grid {
     display: flex;
 }
 
-/* Style left and right columns */
+
 .left-column {
     flex: 1;
-    /* Left column takes up available space */
+
 }
 
 .right-column {
     flex: 1;
-    /* Right column takes up available space */
+
 }
 
 .speciel-side h1 {
@@ -458,12 +457,12 @@ p {
 
 .lillebillede {
     margin-top: 13px;
-    margin-left: 24x;
+    /*margin-left: 24x;*/
 }
 
 .lillebillede2 {
     margin-top: 13px;
-    margin-left: 24x;
+    /*margin-left: 24x;*/
 }
 
 .stortbillede {
@@ -476,12 +475,12 @@ p {
 
 .lillebillede_speciel {
     margin-top: 13px;
-    margin-left: 24x;
+    /*margin-left: 24x;*/
     margin-bottom: -50px;
 }
 
 .lillebillede2_speciel {
     margin-top: 13px;
-    margin-left: 24x;
+    /*margin-left: 24x;*/
     margin-bottom: -50px;
 }
