@@ -29,73 +29,6 @@ a {
     color: inherit;
 }
 
-
-.columns {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.column {
-    flex: 1 0 50%;
-    box-sizing: border-box;
-    margin-left: 0px;
-    color: rgb(136, 136, 136);
-    margin-bottom: 48px;
-}
-
-.column:hover {
-    color: black;
-
-}
-
-.column img {
-    max-width: 98%;
-    height: auto;
-}
-
-.column1 {
-    flex: 1;
-    text-align: left;
-    margin-left: 24px;
-    margin-right: 0px;
-}
-
-.column1 {
-    color: rgb(136, 136, 136);
-}
-
-.column1 :hover {
-    color: rgb(0, 0, 0);
-}
-
-.column2 {
-    color: rgb(136, 136, 136);
-}
-
-.column2 :hover {
-    color: rgb(0, 0, 0);
-}
-
-
-.column2 {
-    flex: 1;
-    text-align: left;
-    margin-right: 12px;
-
-}
-
-.column1 img {
-    max-width: 98%;
-    height: auto;
-    display: block;
-}
-
-.column2 img {
-    max-width: 98%;
-    height: auto;
-    display: block;
-}
-
 /*navbar styling*/
 .navbar li {
     margin-right: 0%;
@@ -133,24 +66,7 @@ a {
     margin: 0;
 }
 
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-}
-
-.container2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    margin-top: 192px;
-}
-
-
+/*"logo" styling*/
 .logo {
     font-size: large;
     margin-left: 24px;
@@ -165,14 +81,6 @@ a {
     margin-bottom: 96px;
 }
 
-.header-wrapper {
-    display: flex;
-}
-
-.header-wrapper1 {
-    display: flex;
-    margin-top: 248px;
-}
 
 h2,
 h3 {
@@ -184,14 +92,6 @@ h2 {
     margin-left: 24px;
 }
 
-
-.overskrift1 {
-    font-size: 2.5em;
-}
-
-.fremhævet {
-    text-decoration: underline;
-}
 
 .center {
     text-align: center;
@@ -222,6 +122,16 @@ footer {
     margin-right: 12px;
 }
 
+.venstre3 {
+    margin-left: 24px;
+    margin-bottom: 512px;
+    font-size: 1.5em;
+    margin-top: -6px;
+    color: black;
+
+}
+
+/*"om mig" side styling*/
 .special-page h2,
 h3,
 h4 {
@@ -236,15 +146,6 @@ h4 {
 
 .special-page h3 {
     color: rgb(0, 0, 0);
-
-}
-
-.venstre3 {
-    margin-left: 24px;
-    margin-bottom: 512px;
-    font-size: 1.5em;
-    margin-top: -6px;
-    color: black;
 
 }
 
@@ -350,30 +251,7 @@ h4 {
     margin-left: 128px;
 }
 
-
-.full-width-image img {
-    width: 100%;
-    height: auto;
-    display: block;
-
-}
-
-
-.two-column-grid {
-    display: flex;
-}
-
-
-.left-column {
-    flex: 1;
-
-}
-
-.right-column {
-    flex: 1;
-
-}
-
+/*styling af enkelte portfolio sider*/
 .speciel-side h1 {
     font-size: 5em;
 }
@@ -402,6 +280,7 @@ p {
     color: rgb(0, 0, 0);
 }
 
+/*styling af tekst*/
 .grey {
     color: rgb(145, 150, 161);
     margin-top: 6px;
@@ -430,13 +309,6 @@ p {
     margin-bottom: 24px;
 }
 
-.mellemrum_under {
-    margin-bottom: -12px;
-}
-
-.mellemrum_under2 {
-    margin-bottom: 36px;
-}
 
 .sort_tekst {
     font-size: 1.2em;
@@ -450,37 +322,46 @@ p {
     margin-bottom: 64px;
 }
 
+/*styling af links i bunden af siden*/
 .space {
     margin-top: 150px;
     margin-bottom: 250px;
 }
 
+/*styling af paragraphs på portfoliosider*/
+.mellemrum_under {
+    margin-bottom: -12px;
+}
+
+.mellemrum_under2 {
+    margin-bottom: 36px;
+}
+
+/*styling af billeder*/
 .lillebillede {
     margin-top: 13px;
-    /*margin-left: 24x;*/
 }
 
 .lillebillede2 {
     margin-top: 13px;
-    /*margin-left: 24x;*/
 }
 
 .stortbillede {
     margin-right: 12px;
 }
 
-.lidt_mellemrum {
-    margin-top: 50px;
-}
-
 .lillebillede_speciel {
     margin-top: 13px;
-    /*margin-left: 24x;*/
     margin-bottom: -50px;
 }
 
 .lillebillede2_speciel {
     margin-top: 13px;
-    /*margin-left: 24x;*/
     margin-bottom: -50px;
+}
+
+.full-width-image img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
